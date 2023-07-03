@@ -1,9 +1,9 @@
-import {useState} from 'react'
+import React, {useState} from 'react'
 import menu from './menu'
 
 
 export function Meals(props) {
-    const {items, setItems} = useState(menu)
+    const [items, setItems] = useState(menu)
     console.log(items)
     
     return (
