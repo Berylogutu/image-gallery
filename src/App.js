@@ -10,10 +10,8 @@ export default function App() {
   return (
     <>
     <div className='container'>
-      <h1>Order Your Favourite Dish</h1>
-      <hr></hr>
-    <Tabs />
-    <Meals />
+      
+        <Meals />
 
     </div>
     </>

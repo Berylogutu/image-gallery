@@ -1,11 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background: rgb(208, 206, 201);
-    /* display: flex; */
-    /* flex-direction: column; */
+    background: rgb(233, 173, 21);
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0;
@@ -18,10 +22,12 @@ button {
 }
 
 .meal-container {
-    background-color: aliceblue;
-    /* margin: 5px;
+    background: aliceblue;
+    margin: 5px;
     padding: 2px;
     border-radius: 5px;
-    display: grid; */
-    /* grid-template-columns: repeat(4, 1fr); */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    z-index: 1;
+    
 }

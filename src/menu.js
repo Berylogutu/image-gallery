@@ -7,10 +7,21 @@ function Menu(elem) {
            
             id: 1,
             image: 'images/corn.jpg',
-            name: 'corn',
-            category: 'lunch',
+            name: 'Corn',
+            category: 'breakfast',
             price: '$2',
-            description: 'Meal 1'
+            description: 'Street corn'
+                
+    
+        },
+        {
+           
+            id: 2,
+            image: 'images/soup.jpg',
+            name: 'Soup',
+            category: 'dinner',
+            price: '$3',
+            description: 'Goat soup'
                 
     
         },
@@ -18,21 +29,10 @@ function Menu(elem) {
            
             id: 1,
             image: 'images/corn.jpg',
-            name: 'corn',
+            name: 'Fries',
             category: 'lunch',
-            price: '$2',
-            description: 'Meal 1'
-                
-    
-        },
-        {
-           
-            id: 1,
-            image: 'images/corn.jpg',
-            name: 'corn',
-            category: 'lunch',
-            price: '$2',
-            description: 'Meal 1'
+            price: '$5',
+            description: 'Potato fries'
                 
     
         }
